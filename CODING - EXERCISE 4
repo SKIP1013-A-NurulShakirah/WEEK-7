@@ -1,0 +1,46 @@
+
+// Generate a random number to be guessed int number = (int)(Math.random() * 101);
+
+package exercisesinclass;
+
+import java.util.Scanner;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int number = (int)(Math.random() * 11);
+		System.out.println(number);
+		
+		System.out.println("Welcome to the guessing game!");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int guess;
+		int i = -1;
+		
+		while (i != number) {
+			System.out.print("\nEnter a number in between 1 to 10 : ");
+			guess = sc.nextInt();
+			
+			if (guess == number)
+			{
+			    System.out.println("\nCongratulations!");
+			}
+			
+			else if (guess <= number)
+			{
+			    System.out.println("\nApologies, but your number is too low.");
+			}
+			
+			else if (guess >= number)
+			{
+				System.out.println("\nApologies, but your number is too high.");
+			}
+			
+		}
+
+	}
+
+}
