@@ -1,0 +1,99 @@
+package exercisesinclass;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 0;
+		int y = 1;
+		int z = 1;
+		
+		while ( y <= 20) {
+			System.out.println("y = " + y);
+			x = x + y;
+			y = y + 5;
+			System.out.println("x = " + x);
+			System.out.println("z = " + z);
+			z++;
+		}
+		
+		System.out.println();
+
+		
+		do {
+			System.out.println("y = " + y);
+			x = x + y;
+			y = y + 5;
+			System.out.println("x = " + x);
+			System.out.println("z = " + z);
+			z++;
+		}
+		while ( y <= 20);
+		
+		System.out.println();
+		
+		
+		for (y = 1;y <= 20;)
+        {
+            System.out.println("y = " + y);
+            x= x + y;
+            y= y + 5;
+            System.out.println("x = "+ x);  
+            System.out.println("z = "+ z);
+            z++;
+            y++;
+        }
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*int x=0;
+        int y=1;
+        int z =1;
+        int a=0;
+        int b=1;
+        int c =1;
+        int d=0;
+        int e=1;
+        int f =1;
+        while (y <= 20) {
+            System.out.println("y ="+y);
+            x=x+y;
+              y=y+5;
+              System.out.println("x ="+x);  
+              System.out.println("z ="+z);
+              z++;
+        }
+        do {
+            System.out.println("b ="+b);
+            a=a+b;
+              b=b+5;
+              System.out.println("a ="+a);  
+              System.out.println("c ="+c);
+              c++;
+        }while (b<=20);
+        
+        for (e=1;e<=20;)
+        {
+            System.out.println("e ="+e);
+            d=d+e;
+              e=e+5;
+              System.out.println("d ="+d);  
+              System.out.println("f ="+f);
+              f++;
+              e++;
+        }
+        */
