@@ -1,0 +1,40 @@
+
+ /*while (k > 10) {
+   System.out.print(k + "");
+   k--; 
+   }*/
+
+
+
+package exercisesinclass;
+
+public class Exercise2 {    
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int k = 20;
+		int j = 20;
+		
+		while (k > 10) {
+			System.out.println("k = " + k);
+			k--;
+		}
+		
+		
+		
+		do {
+			System.out.println("j = " + j);
+			j--;
+		}
+		while (j > 10);
+		
+		
+		
+		for (int i = 20; i > 10; i = i + 1) {
+			System.out.print("i = " + i);
+		}
+
+	}
+
+}
