@@ -1,0 +1,45 @@
+10
+Welcome to the guessing game!
+
+Enter a number in between 1 to 10 : 1
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 2
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 3
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 4
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 5
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 6
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 7
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 8
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 
+9
+
+Apologies, but your number is too low.
+
+Enter a number in between 1 to 10 : 10
+
+Congratulations!
+
+Enter a number in between 1 to 10 : 
